@@ -1,0 +1,22 @@
+<article>
+    <header>
+        <h3><a href='{{ .RelPermalink }}'> {{ .Title }}</a> 
+        </h3>
+        <div>
+            <p>
+                <bd>{{ .Date.Format "January 2, 2006" }}</bd>
+            </p>
+        </div>
+    </header>
+<p>
+    {{ .Summary }}
+    </p>
+    <footer>
+        <p>
+            <a href='{{ .RelPermalink }}'>
+                Continue Reading ... →
+            </a>
+        </p>
+        <hr>
+    </footer>
+</article>

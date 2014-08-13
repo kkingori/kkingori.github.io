@@ -1,0 +1,7 @@
+baseurl = "http://kkingori.github.io"
+languageCode = "en-us"
+title = "King'ori's Blawg"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+theme = "stanley"
