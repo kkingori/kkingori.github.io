@@ -1,124 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on King&#39;ori&#39;s Blawg </title>
+      <title>Contacts on King&#39;ori&#39;s Blawg </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://kkingori.github.io/index.xml</link>
+    <link>http://kkingori.github.io/contact/index.xml</link>
     <language>en-us</language>
     
     
-    <updated>Wed, 13 Aug 2014 08:06:31 UTC</updated>
-    
-    <item>
-      <title>Dilinger</title>
-      <link>http://kkingori.github.io/blog/dilinger</link>
-      <pubDate>Wed, 13 Aug 2014 08:06:31 UTC</pubDate>
-      
-      <guid>http://kkingori.github.io/blog/dilinger</guid>
-      <description>
-
-&lt;p&gt;Dillinger is a cloud-enabled HTML5 Markdown editor.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Type some Markdown text in the left window&lt;/li&gt;
-&lt;li&gt;See the HTML in the right&lt;/li&gt;
-&lt;li&gt;Magic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As &lt;a href=&#34;http://daringfireball.net/&#34;&gt;John Gruber&lt;/a&gt; writes on the &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown site&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The overriding design goal for Markdown&amp;rsquo;s
-formatting syntax is to make it as readable
-as possible. The idea is that a
-Markdown-formatted document should be
-publishable as-is, as plain text, without
-looking like it&amp;rsquo;s been marked up with tags
-or formatting instructions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This text you see here is &lt;em&gt;actually&lt;/em&gt; written in Markdown! To get a feel for Markdown&amp;rsquo;s syntax, type some text into the left window and watch the results in the right.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Version&lt;/h2&gt;
-
-&lt;p&gt;2.0&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Tech&lt;/h2&gt;
-
-&lt;p&gt;Dillinger uses a number of open source projects to work properly:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://ace.ajax.org&#34;&gt;Ace Editor&lt;/a&gt; - awesome web-based text editor&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/chjj/marked&#34;&gt;Marked&lt;/a&gt; - a super fast port of Markdown to JavaScript&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.github.com/bootstrap/&#34;&gt;Twitter Bootstrap&lt;/a&gt; - great UI boilerplate for modern web apps&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://nodejs.org&#34;&gt;node.js&lt;/a&gt; - evented I/O for the backend&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://expressjs.com&#34;&gt;Express&lt;/a&gt; - fast node.js network app framework &lt;a href=&#34;http://twitter.com/tjholowaychuk&#34;&gt;@tjholowaychuk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/madrobby/keymaster&#34;&gt;keymaster.js&lt;/a&gt; - awesome keyboard handler lib by &lt;a href=&#34;http://twitter.com/thomasfuchs&#34;&gt;@thomasfuchs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jquery.com&#34;&gt;jQuery&lt;/a&gt; - duh&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;sh&#34;&gt;git clone [git-repo-url] dillinger
-cd dillinger
-npm i -d
-mkdir -p public/files/{md,html,pdf}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;toc_3&#34;&gt;Configure Plugins. Instructions in following README.md files&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;plugins/dropbox/README.md&lt;/li&gt;
-&lt;li&gt;plugins/github/README.md&lt;/li&gt;
-&lt;li&gt;plugins/googledrive/README.md&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;sh&#34;&gt;node app
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;MIT&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Free Software, Hell Yeah!&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://kkingori.github.io/blog/first</link>
-      <pubDate>Sun, 13 Jul 2014 08:06:31 UTC</pubDate>
-      
-      <guid>http://kkingori.github.io/blog/first</guid>
-      <description>
-
-&lt;p&gt;Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;
-
-&lt;h5 id=&#34;toc_0&#34;&gt;Survival&lt;/h5&gt;
-
-&lt;p&gt;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
-
-&lt;h5 id=&#34;toc_1&#34;&gt;Check out this image&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&#34;/media/img/blog01.jpg&#34; class=&#34;img-responsive&#34; title=&#34;Pretty picture&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Third</title>
-      <link>http://kkingori.github.io/blog/third</link>
-      <pubDate>Fri, 13 Jun 2014 08:06:31 UTC</pubDate>
-      
-      <guid>http://kkingori.github.io/blog/third</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac lectus id ligula rutrum ullamcorper. Maecenas euismod urna vitae dolor vulputate, eu venenatis urna consectetur. Maecenas fringilla tincidunt libero, tempus bibendum justo volutpat vitae. Duis rutrum dolor mauris, eget aliquam tellus lacinia a. Sed tempus sapien augue, a sodales lorem accumsan sit amet. Integer at euismod erat. Nulla facilisi. Suspendisse potenti. Maecenas pretium a libero egestas viverra. Nullam nunc magna, congue vitae felis ac, auctor molestie est. Aliquam semper accumsan vestibulum. Vivamus luctus vehicula justo id elementum. Quisque commodo libero congue nunc consequat, vitae venenatis neque congue. Etiam quis enim accumsan tellus adipiscing adipiscing sit amet et augue.&lt;/p&gt;
-
-&lt;p&gt;Curabitur dictum nisl eget euismod varius. Sed facilisis nisl quis tortor dictum, eu mattis tellus porta. Suspendisse vehicula sodales augue, nec ornare massa facilisis nec. Nullam eu fermentum nisl. In gravida aliquam lacus, at gravida diam euismod in. Vestibulum leo elit, congue vitae orci vel, consequat tempor nisi. Aliquam ut elementum velit, ac mollis augue. Praesent a sollicitudin odio. Maecenas elementum velit ac nisl tincidunt tincidunt.&lt;/p&gt;
-
-&lt;p&gt;Morbi consequat turpis ac nisl consectetur posuere. Integer feugiat enim lorem, at blandit lorem sagittis sit amet. Fusce at pharetra nisl. Vestibulum a neque ut lectus placerat vehicula. Praesent ut ultrices purus. Cras venenatis ullamcorper pretium. Ut non facilisis sapien. Sed et est orci. Maecenas congue lacus tincidunt, porta dui id, dapibus diam. Proin imperdiet hendrerit turpis, at dapibus erat vulputate et. Sed interdum tortor vel consequat tempor.&lt;/p&gt;
-</description>
-    </item>
+    <updated>Tue, 01 Jan 2008 00:00:00 UTC</updated>
     
     <item>
       <title></title>
