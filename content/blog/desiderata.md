@@ -2,6 +2,7 @@
 date = 2014-08-14T16:07:16Z
 title = "Desiderata"
 draft = false
+tags ="poetry"
 
 +++
 
