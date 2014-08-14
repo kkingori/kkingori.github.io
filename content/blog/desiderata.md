@@ -6,7 +6,7 @@ draft = false
 +++
 
 
-I loved this poem from the first time I saw it back in high school. It's packed chock full of solid advice and if life had a manual this would be in it somewhere. Enjoy!
+I loved this poem from the first time I saw it back in high school. It's packed chock full of solid advice and if life had a manual, this would be in it somewhere. Enjoy!
 
 > #### DESIDERATA
 
