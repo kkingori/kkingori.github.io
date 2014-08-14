@@ -7,7 +7,7 @@
  * URL: http://blacktie.co
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
  body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -71,6 +71,7 @@ hr {
     padding: 0;
 }
 .navbar {
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
