@@ -52,8 +52,7 @@
           </ul>
         </div>
       </div>
-    </div>
-    
+    </div> 
 
     
     <div id="white">
@@ -67,7 +66,8 @@
                     <p id="date">
                         <bd>July, 8 2014</bd>
                     </p>
-                    <h3 id="title"><a href='http://kkingori.github.io/blog/first'>First</a></h3>
+                    <h3 id="title"><a href='http://localhost:1313/blog/first'>First</a>
+                    </h3>
                     <div>
                         <article id="content">
 
@@ -85,6 +85,8 @@
 </article>
                     </div>
                     <aside id="meta">
+
+                        <hr>
                         <div>
                             <p>
                                 <bt>TAGS:
@@ -94,7 +96,6 @@
                                 </bt>
                             </p>
                         </div>
-                        <hr>
                         
 
                     </aside>
@@ -143,7 +144,10 @@
 
 
 <script src="/js/bootstrap.min.js"></script>
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 
 </html>
 

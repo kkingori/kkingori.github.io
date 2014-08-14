@@ -2,8 +2,7 @@
 
 <body>
 
-    {{ partial "navbar.html" . }}
-    {{ $baseurl := .Site.BaseUrl }}
+    {{ partial "navbar.html" . }} {{ $baseurl := .Site.BaseUrl }}
 
     <!-- +++++ Post +++++ -->
     <div id="white">
@@ -17,11 +16,14 @@
                     <p id="date">
                         <bd>{{ .Date.Format "January, 3 2006" }}</bd>
                     </p>
-                    <h3 id="title"><a href='{{ .Permalink }}'>{{ .Title}}</a></h3>
+                    <h3 id="title"><a href='{{ .Permalink }}'>{{ .Title}}</a>
+                    </h3>
                     <div>
                         <article id="content">{{ .Content }}</article>
                     </div>
                     <aside id="meta">
+
+                        <hr>
                         <div>
                             <p>
                                 <bt>TAGS:
@@ -34,7 +36,6 @@
                                 </bt>
                             </p>
                         </div>
-                        <hr>
                         <!-- Previous and Next post
                         <div>{{ if .Prev }}
                             <a href="{{.Prev.Permalink}}"> {{.Prev.Title}}</a>
