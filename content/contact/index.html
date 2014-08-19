@@ -14,7 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
 
-  <!-- Font-Awesome -->
+    <!-- Font-Awesome -->
     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
@@ -45,7 +45,7 @@
             <div class="col-lg-6 col-lg-offset-3 centered">
                 <h3>CONTACT ME</h3>
                 <hr>
-                <p>Drop me a line below.  </p>
+                <p>Drop me a line below.</p>
             </div>
         </div>
         <div class="row mt">
@@ -57,18 +57,20 @@
                 var submitted = false;
                 </script>
                 <iframe name="hidden_iframe " id="hidden_iframe" style="display:none; " onload="if(submitted) {window.location='/contact/success' ;}"></iframe>
-                <form action="https://docs.google.com/forms/d/1X2W7DZXrSdxpAhEpurgF0kEaSMDXB1J6qrduwoNl1Uo/formResponse" method="post " target="hidden_iframe " onsubmit="submitted=true; ">
+                <form role="form" action="https://docs.google.com/forms/d/1X2W7DZXrSdxpAhEpurgF0kEaSMDXB1J6qrduwoNl1Uo/formResponse" method="post " target="hidden_iframe " onsubmit="submitted=true; ">
 
 
                     <div class="form-group">
+                        <label for="entry.1573761411">Name</label>
                         <input id="entry.1573761411" name="entry.1573761411" type="name" class="form-control" placeholder="Your Name" value="" maxlength="255" tabindex="1" onkeyup="" required autocomplete="name" />
                     </div>
 
-                    <div>
+                    <div class="form-group">
+                        <label for="entry.1508733156">Email address</label>
                         <input id="entry.1508733156" name="entry.1508733156" type="email" spellcheck="false" class="form-control" placeholder="Enter email" value="" maxlength="255" tabindex="2" autocomplete="email" />
                     </div>
-                    <br>
-                    <div>
+                    <div class="form-group">
+                        <label for="entry.150189073">Message</label>
                         <textarea id="entry.150189073" name="entry.150189073" class="form-control" placeholder="Enter your message here" spellcheck="true" rows="9" cols="50" tabindex="3" onkeyup="" required></textarea>
 
                     </div>
