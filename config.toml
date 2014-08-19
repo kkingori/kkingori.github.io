@@ -7,3 +7,6 @@ publishdir = "public"
 theme = "stanley"
 [taxonomies]
 	tags = "tags"
+
+[permalinks]
+	404 = "/404.html"	
