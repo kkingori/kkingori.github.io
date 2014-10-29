@@ -7,27 +7,7 @@
     <language>en-us</language>
     
     
-    <updated>Wed, 15 Oct 2014 17:38:21 UTC</updated>
-    
-    <item>
-      <title>stop_OSX_exfat_repair</title>
-      <link>http://kkingori.github.io/blog/stop-osx/</link>
-      <pubDate>Wed, 15 Oct 2014 17:38:21 UTC</pubDate>
-      
-      <guid>http://kkingori.github.io/blog/stop-osx/</guid>
-      <description>&lt;p&gt;The ExFat filesystem is becoming the defacto filesystem for sharing between windows, linus and osx. It&amp;rsquo;s terribly conveninet t&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
-#!/bin/sh
-
-sudo diskutil unmount force KEN
-cd /Volumes
-mkdir KEN
-sudo /System/Library/Filesystems/exfat.fs/Contents/Resources/exfat.util -MU disk1s1 /Volumes/Ken removable writable nosuid nodev
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
+    <updated>Thu, 14 Aug 2014 16:07:16 UTC</updated>
     
     <item>
       <title>Desiderata</title>
