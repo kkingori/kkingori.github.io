@@ -13,7 +13,7 @@
                     <p id="date">
                         <bd>{{ .Date.Format "January, 3 2006" }}</bd>
                     </p>
-                    <h3 id="title"><a href='{{ .Permalink }}'>{{ .Title}}</a>
+                    <h3 id="title"><a href='{{ .RelPermalink }}'>{{ .Title}}</a>
                     </h3>
                     <div>
                         <article id="content">{{ .Content }}</article>

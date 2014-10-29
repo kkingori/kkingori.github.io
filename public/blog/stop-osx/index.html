@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Keneth King'ori's personal blog">
+    <meta name="author" content="Keneth King'ori">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
     <title>Keneth King'ori</title>
@@ -18,17 +18,18 @@
     
     <link href="/css/main.css" rel="stylesheet">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="/js/hover.zoom.js"></script>
     <script src="/js/hover.zoom.conf.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-
-
 
 
     
     
 </head>
+
 
 <body>
 
@@ -51,27 +52,59 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
 
     
+    <div id="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    
+                    <p id="date">
+                        <bd>October, 5 2014</bd>
+                    </p>
+                    <h3 id="title"><a href='/blog/stop-osx/'>stop_OSX_exfat_repair</a>
+                    </h3>
+                    <div>
+                        <article id="content"><p>The ExFat filesystem is becoming the defacto filesystem for sharing between windows, linus and osx. It&rsquo;s terribly conveninet t</p>
 
-    <div class="container pt">
-        <div class="row mt">
-            <div class="col-lg-6 col-lg-offset-3 centered">
-                <h3>Thank you</h3>
-                <hr>
-                <p>Your message has been sent. I'll get back to you ASAP.</p>
+<pre><code class="language-sh">
+#!/bin/sh
+
+sudo diskutil unmount force KEN
+cd /Volumes
+mkdir KEN
+sudo /System/Library/Filesystems/exfat.fs/Contents/Resources/exfat.util -MU disk1s1 /Volumes/Ken removable writable nosuid nodev
+
+</code></pre>
+</article>
+                    </div>
+                    <aside id="meta">
+
+                        <hr>
+                        <div>
+                        <p>
+                        <img src="../../img/user.png" width="50px" height="50px">
+                        <ba>Keneth King'ori</ba>
+                    </p>
+                            <p>
+                                <bt>TAGS:
+                                    <ul id="tags">
+                                        
+                                    </ul>
+                                </bt>
+                            </p>
+                        </div>
+                        
+
+                    </aside>
+                    
+                </div>
+
             </div>
-        </div>
-        <div class="row mt">
-            <div class="col-lg-8 col-lg-offset-2">
-
-
-
-            </div>
+            
         </div>
         
-
     </div>
     
 

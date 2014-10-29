@@ -2,12 +2,15 @@
 date = 2014-08-14T16:07:16Z
 title = "Desiderata"
 draft = false
+description = "I loved this poem from the first time I saw it back in high school. It's packed chock full of solid advice and if life had a manual, this would be in it somewhere."
 tags ="poetry"
 
 +++
 
 
 I loved this poem from the first time I saw it back in high school. It's packed chock full of solid advice and if life had a manual, this would be in it somewhere.
+
+<!--more-->
 
 > #### DESIDERATA
 
