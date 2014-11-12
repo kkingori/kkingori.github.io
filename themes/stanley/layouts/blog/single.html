@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
 {{ partial "header.html" . }}
 
 <body>
@@ -9,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    
+
                     <p id="date">
                         <bd>{{ .Date.Format "January, 3 2006" }}</bd>
                     </p>
@@ -22,20 +26,11 @@
 
                         <hr>
                         <div>
-                        <p>
-                        <img src="../../img/user.png" width="50px" height="50px">
-                        <ba>Keneth King'ori</ba>
-                    </p>
                             <p>
-                                <bt>TAGS:
-                                    <ul id="tags">
-                                        {{ range .Params.tags }}
-                                        <li> <a href="tags/{{ . | urlize }}">{{ . }}</a> 
-                                        </li>
-                                        {{ end }}
-                                    </ul>
-                                </bt>
+                                <img src="../../img/user.png" width="50px" height="50px">
+                                <ba>Keneth King'ori</ba>
                             </p>
+                            
                         </div>
                         <!-- Previous and Next post
                         <div>{{ if .Prev }}
@@ -64,5 +59,8 @@
     </div>
     <!-- /white -->
 
-
     {{ partial "footer.html" . }}
+
+</body>
+
+</html>
