@@ -8,6 +8,8 @@ summary = "Dillinger is a cloud-enabled HTML5 Markdown "
 
 Dillinger is a cloud-enabled HTML5 Markdown editor.
 
+<!--more-->
+
   - Type some Markdown text in the left window
   - See the HTML in the right
   - Magic

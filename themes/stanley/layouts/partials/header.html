@@ -7,7 +7,7 @@
     <meta name="author" content="Keneth King'ori">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Keneth King'ori</title>
+    {{ if .Title }}<title>{{ .Title }}</title>{{ end }}
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">

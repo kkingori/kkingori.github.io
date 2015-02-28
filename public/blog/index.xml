@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Blogs on KENETH KING&#39;ORI </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://kkingori.github.io/blog/index.xml/</link>
+    <title>Blogs on KENETH KING&#39;ORI</title>
+    <link>http://kkingori.github.io/blog/</link>
+    <description>Recent content in Blogs on KENETH KING&#39;ORI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Thu, 14 Aug 2014 16:07:16 UTC</updated>
+    <lastBuildDate>Thu, 14 Aug 2014 16:07:16 +0000</lastBuildDate>
+    <atom:link href="http://kkingori.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Desiderata</title>
       <link>http://kkingori.github.io/blog/desiderata/</link>
-      <pubDate>Thu, 14 Aug 2014 16:07:16 UTC</pubDate>
+      <pubDate>Thu, 14 Aug 2014 16:07:16 +0000</pubDate>
       
       <guid>http://kkingori.github.io/blog/desiderata/</guid>
       <description>
@@ -20,7 +20,7 @@
 &lt;p&gt;I loved this poem from the first time I saw it back in high school. It&amp;rsquo;s packed chock full of solid advice and if life had a manual, this would be in it somewhere.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h4 id=&#34;toc_0&#34;&gt;DESIDERATA&lt;/h4&gt;
+&lt;h4 id=&#34;desiderata:ad58fc1fb2d9f0bef1902ba6448ddc2c&#34;&gt;DESIDERATA&lt;/h4&gt;
 
 &lt;p&gt;Go placidly amid the noise and haste, and remember what peace there may be in silence. As far as possible without surrender be on good terms with all persons.&lt;/p&gt;
 

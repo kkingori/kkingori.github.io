@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on KENETH KING&#39;ORI </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://kkingori.github.io/index.xml/</link>
+    <title>KENETH KING&#39;ORI</title>
+    <link>http://kkingori.github.io/</link>
+    <description>Recent content on KENETH KING&#39;ORI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Thu, 14 Aug 2014 16:07:16 UTC</updated>
+    <lastBuildDate>Thu, 14 Aug 2014 16:07:16 +0000</lastBuildDate>
+    <atom:link href="http://kkingori.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Desiderata</title>
       <link>http://kkingori.github.io/blog/desiderata/</link>
-      <pubDate>Thu, 14 Aug 2014 16:07:16 UTC</pubDate>
+      <pubDate>Thu, 14 Aug 2014 16:07:16 +0000</pubDate>
       
       <guid>http://kkingori.github.io/blog/desiderata/</guid>
       <description>
@@ -20,7 +20,7 @@
 &lt;p&gt;I loved this poem from the first time I saw it back in high school. It&amp;rsquo;s packed chock full of solid advice and if life had a manual, this would be in it somewhere.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h4 id=&#34;toc_0&#34;&gt;DESIDERATA&lt;/h4&gt;
+&lt;h4 id=&#34;desiderata:ad58fc1fb2d9f0bef1902ba6448ddc2c&#34;&gt;DESIDERATA&lt;/h4&gt;
 
 &lt;p&gt;Go placidly amid the noise and haste, and remember what peace there may be in silence. As far as possible without surrender be on good terms with all persons.&lt;/p&gt;
 
@@ -50,7 +50,7 @@
     <item>
       <title></title>
       <link>http://kkingori.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://kkingori.github.io/contact/</guid>
       <description>&lt;!DOCTYPE html&gt;
@@ -64,21 +64,21 @@
     &lt;meta name=&#34;author&#34; content=&#34;&#34;&gt;
     &lt;link rel=&#34;shortcut icon&#34; href=&#34;../../docs-assets/ico/favicon.png&#34;&gt;
 
-    &lt;title&gt;Keneth King&#39;ori&lt;/title&gt;
+    &lt;title&gt;Keneth King&#39;ori - Contact&lt;/title&gt;
 
     &lt;!-- Bootstrap core CSS --&gt;
-    &lt;link href=&#34;/css/bootstrap.css&#34; rel=&#34;stylesheet&#34;&gt;
+    &lt;link href=&#34;http://kkingori.github.io/css/bootstrap.css&#34; rel=&#34;stylesheet&#34;&gt;
 
     &lt;!-- Font-Awesome --&gt;
-    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/css/font-awesome.min.css&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://kkingori.github.io/css/font-awesome.min.css&#34;&gt;
 
     &lt;!-- Custom styles for this template --&gt;
-    &lt;link href=&#34;/css/main.css&#34; rel=&#34;stylesheet&#34;&gt;
+    &lt;link href=&#34;http://kkingori.github.io/css/main.css&#34; rel=&#34;stylesheet&#34;&gt;
 
     &lt;script src=&#34;https://code.jquery.com/jquery-1.10.2.min.js&#34;&gt;&lt;/script&gt;
-    &lt;script src=&#34;/js/hover.zoom.js&#34;&gt;&lt;/script&gt;
-    &lt;script src=&#34;/js/hover.zoom.conf.js&#34;&gt;&lt;/script&gt;
-    &lt;script type=&#34;text/javascript&#34; src=&#34;/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;http://kkingori.github.io/js/hover.zoom.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;http://kkingori.github.io/js/hover.zoom.conf.js&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34; src=&#34;http://kkingori.github.io/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
 
 
 
@@ -153,7 +153,7 @@
     <item>
       <title></title>
       <link>http://kkingori.github.io/contact/success/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://kkingori.github.io/contact/success/</guid>
       <description>&lt;!DOCTYPE html&gt;
@@ -167,19 +167,19 @@
     &lt;meta name=&#34;author&#34; content=&#34;&#34;&gt;
     &lt;link rel=&#34;shortcut icon&#34; href=&#34;../../docs-assets/ico/favicon.png&#34;&gt;
 
-    &lt;title&gt;Keneth King&#39;ori&lt;/title&gt;
+    &lt;title&gt;Keneth King&#39;ori - Thank You&lt;/title&gt;
 
     &lt;!-- Bootstrap core CSS --&gt;
-    &lt;link href=&#34;/css/bootstrap.css&#34; rel=&#34;stylesheet&#34;&gt;
+    &lt;link href=&#34;http://kkingori.github.io/css/bootstrap.css&#34; rel=&#34;stylesheet&#34;&gt;
 
 
     &lt;!-- Custom styles for this template --&gt;
-    &lt;link href=&#34;/css/main.css&#34; rel=&#34;stylesheet&#34;&gt;
+    &lt;link href=&#34;http://kkingori.github.io/css/main.css&#34; rel=&#34;stylesheet&#34;&gt;
 
     &lt;script src=&#34;https://code.jquery.com/jquery-1.10.2.min.js&#34;&gt;&lt;/script&gt;
-    &lt;script src=&#34;/js/hover.zoom.js&#34;&gt;&lt;/script&gt;
-    &lt;script src=&#34;/js/hover.zoom.conf.js&#34;&gt;&lt;/script&gt;
-    &lt;script type=&#34;text/javascript&#34; src=&#34;/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;http://kkingori.github.io/js/hover.zoom.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;http://kkingori.github.io/js/hover.zoom.conf.js&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34; src=&#34;http://kkingori.github.io/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
 
 
 
