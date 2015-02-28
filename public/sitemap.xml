@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://kkingori.github.io/</loc>
+    <loc>https://kkingori.github.io/</loc>
     <lastmod>2014-08-14T16:07:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://kkingori.github.io/blog/desiderata/</loc>
+    <loc>https://kkingori.github.io/blog/desiderata/</loc>
     <lastmod>2014-08-14T16:07:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://kkingori.github.io/contact/</loc>
+    <loc>https://kkingori.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>http://kkingori.github.io/contact/success/</loc>
+    <loc>https://kkingori.github.io/contact/success/</loc>
   </url>
   
 </urlset>
