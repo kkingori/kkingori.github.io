@@ -9,7 +9,7 @@
     <meta name="description" content="Keneth King'ori's personal blog">
     <meta name="author" content="Keneth King'ori">
     <link rel="shortcut icon" href="/favicon.ico"> 
-    <title>Desiderata</title>
+    <title>Deploy streisand</title>
     
     <link href="/css/bootstrap.css" rel="stylesheet">
     
@@ -60,40 +60,64 @@
                 <div class="col-lg-8 col-lg-offset-2">
 
                     <p id="date">
-                        <bd>August, 4 2014</bd>
+                        <bd>May, 5 2016</bd>
                     </p>
-                    <h3 id="title"><a href='/blog/desiderata/'>Desiderata</a>
+                    <h3 id="title"><a href='/blog/deploy-streisand/'>Deploy streisand</a>
                     </h3>
                     <div>
-                        <article id="content"><p>I loved this poem from the first time I saw it back in high school. It&rsquo;s packed chock full of solid advice and if life had a manual, this would be in it somewhere.</p>
+                        <article id="content">
 
-<p></p>
+<p>Streisand sets up a new server running a wide variety of anti-censorship software that can completely mask and encrypt all of your Internet traffic. It also generates custom configuration instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists.</p>
 
-<blockquote>
-<h4 id="desiderata">DESIDERATA</h4>
+<h3 id="install-ansible">Install ansible</h3>
 
-<p>Go placidly amid the noise and haste, and remember what peace there may be in silence. As far as possible without surrender be on good terms with all persons.</p>
+<pre><code>$ sudo apt-get install software-properties-common
+$ sudo apt-add-repository ppa:ansible/ansible
+$ sudo apt-get update
+$ sudo apt-get install ansible
 
-<p>Speak your truth quietly and clearly; and listen to others, even the dull and the ignorant; they too have their story.</p>
+</code></pre>
 
-<p>Avoid loud and aggressive persons, they are vexations to the spirit. If you compare yourself with others, you may become vain and bitter; for always there will be greater and lesser persons than yourself.</p>
+<h3 id="get-streisand">Get Streisand</h3>
 
-<p>Enjoy your achievements as well as your plans. Keep interested in your own career, however humble; it is a real possession in the changing fortunes of time.</p>
+<pre><code>sudo apt-get install git
 
-<p>Exercise caution in your business affairs; for the world is full of trickery. But let this not blind you to what virtue there is; many persons strive for high ideals; and everywhere life is full of heroism.</p>
+git clone https://github.com/jlund/streisand.git
 
-<p>Be yourself. Especially, do not feign affection. Neither be cynical about love; for in the face of all aridity and disenchantment it is as perennial as the grass.</p>
+cd streisand
 
-<p>Take kindly the counsel of the years, gracefully surrendering the things of youth.</p>
+</code></pre>
 
-<p>Nurture strength of spirit to shield you in sudden misfortune. But do not distress yourself with dark imaginings. Many fears are born of fatigue and loneliness.</p>
+<p>Edit the inventory file and uncomment the final two lines. Replace the sample IP with the address (or addresses) of the servers you wish to configure. Don&rsquo;t put in localhost, the generated docs will be all wrong.</p>
 
-<p>Beyond a wholesome discipline, be gentle with yourself. You are a child of the universe, no less than the trees and the stars; you have a right to be here. And whether or not it is clear to you, no doubt the universe is unfolding as it should.</p>
+<p>Edit playbooks/streisand.yml</p>
 
-<p>Therefore be at peace with God, whatever you conceive Him to be, and whatever your labors and aspirations, in the noisy confusion of life keep peace with your soul. With all its sham, drudgery, and broken dreams, it is still a beautiful world. Be cheerful. Strive to be happy.</p>
+<p>Change user from root to ubuntu <code>remote_user: ubuntu</code></p>
 
-<p>- Max Ehrmann.</p>
-</blockquote></article>
+<p>just below that add <code>become: true</code></p>
+
+<p>You&rsquo;re all set to build the streisand server on the host you have ssh&rsquo;ed into. Just run</p>
+
+<pre><code>ansible-playbook playbooks/streisand.yml --connection=local
+</code></pre>
+
+<p>Wait for the setup to complete and look for the corresponding files in the &lsquo;generated-docs&rsquo; folder in the Streisand repository directory. The HTML file will explain how to connect to the Gateway over SSL, or via the Tor hidden service. All instructions, files, mirrored clients, and keys for the new server can then be found on the Gateway. You are all done!</p>
+
+<p>I normally use <a href="https://www.surge.sh">Surge.sh</a> to access the generated docs.</p>
+
+<h3 id="install-nodejs">Install NodeJS</h3>
+
+<pre><code>curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+sudo apt-get install -y nodejs
+</code></pre>
+
+<h3 id="install-surge-sh">Install Surge.sh</h3>
+
+<pre><code>npm install --global surge
+cd generated-docs
+surge
+</code></pre>
+</article>
                     </div>
                     <aside id="meta">
 
