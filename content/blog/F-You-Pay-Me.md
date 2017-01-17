@@ -1,6 +1,7 @@
 +++
 date = "2014-10-01T12:46:50+03:00"
 title = "F*ck You, Pay Me"
+draft = "true"
 
 +++
 
