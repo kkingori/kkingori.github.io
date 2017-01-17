@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kkingori.github.io/blog/deploy-streisand/</loc>
-    <lastmod>2016-05-10T17:04:50+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kkingori.github.io/blog/F-You-Pay-Me/</loc>
     <lastmod>2014-10-01T12:46:50+03:00</lastmod>
   </url>
@@ -26,7 +21,7 @@
   
   <url>
     <loc>https://kkingori.github.io/blog/</loc>
-    <lastmod>2016-05-10T17:04:50+03:00</lastmod>
+    <lastmod>2014-10-01T12:46:50+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,7 +32,7 @@
   
   <url>
     <loc>https://kkingori.github.io/</loc>
-    <lastmod>2016-05-10T17:04:50+03:00</lastmod>
+    <lastmod>2014-10-01T12:46:50+03:00</lastmod>
     <priority>0</priority>
   </url>
   
