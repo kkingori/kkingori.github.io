@@ -1,6 +1,7 @@
 +++
 date = "2016-05-10T17:04:50+03:00"
 title = "Deploy streisand"
+draft = "true"
 
 +++
 

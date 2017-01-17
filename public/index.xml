@@ -6,69 +6,8 @@
     <description>Recent content on KENETH KING&#39;ORI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 May 2016 17:04:50 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2014 12:46:50 +0300</lastBuildDate>
     <atom:link href="https://kkingori.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Deploy streisand</title>
-      <link>https://kkingori.github.io/blog/deploy-streisand/</link>
-      <pubDate>Tue, 10 May 2016 17:04:50 +0300</pubDate>
-      
-      <guid>https://kkingori.github.io/blog/deploy-streisand/</guid>
-      <description>
-
-&lt;p&gt;Streisand sets up a new server running a wide variety of anti-censorship software that can completely mask and encrypt all of your Internet traffic. It also generates custom configuration instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists.&lt;/p&gt;
-
-&lt;h3 id=&#34;install-ansible&#34;&gt;Install ansible&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install software-properties-common
-$ sudo apt-add-repository ppa:ansible/ansible
-$ sudo apt-get update
-$ sudo apt-get install ansible
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;get-streisand&#34;&gt;Get Streisand&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get install git
-
-git clone https://github.com/jlund/streisand.git
-
-cd streisand
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Edit the inventory file and uncomment the final two lines. Replace the sample IP with the address (or addresses) of the servers you wish to configure. Don&amp;rsquo;t put in localhost, the generated docs will be all wrong.&lt;/p&gt;
-
-&lt;p&gt;Edit playbooks/streisand.yml&lt;/p&gt;
-
-&lt;p&gt;Change user from root to ubuntu &lt;code&gt;remote_user: ubuntu&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;just below that add &lt;code&gt;become: true&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;re all set to build the streisand server on the host you have ssh&amp;rsquo;ed into. Just run&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ansible-playbook playbooks/streisand.yml --connection=local
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Wait for the setup to complete and look for the corresponding files in the &amp;lsquo;generated-docs&amp;rsquo; folder in the Streisand repository directory. The HTML file will explain how to connect to the Gateway over SSL, or via the Tor hidden service. All instructions, files, mirrored clients, and keys for the new server can then be found on the Gateway. You are all done!&lt;/p&gt;
-
-&lt;p&gt;I normally use &lt;a href=&#34;https://www.surge.sh&#34;&gt;Surge.sh&lt;/a&gt; to access the generated docs.&lt;/p&gt;
-
-&lt;h3 id=&#34;install-nodejs&#34;&gt;Install NodeJS&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
-sudo apt-get install -y nodejs
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;install-surge-sh&#34;&gt;Install Surge.sh&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install --global surge
-cd generated-docs
-surge
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
     
     <item>
       <title>F*ck You, Pay Me</title>
