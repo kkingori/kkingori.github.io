@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kkingori.github.io/</loc>
-    <lastmod>2016-05-10T17:04:50+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kkingori.github.io/blog/deploy-streisand/</loc>
     <lastmod>2016-05-10T17:04:50+03:00</lastmod>
   </url>
@@ -27,6 +22,34 @@
   
   <url>
     <loc>https://kkingori.github.io/contact/success/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kkingori.github.io/blog/</loc>
+    <lastmod>2016-05-10T17:04:50+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kkingori.github.io/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kkingori.github.io/</loc>
+    <lastmod>2016-05-10T17:04:50+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kkingori.github.io/tags/poetry/</loc>
+    <lastmod>2014-08-14T16:07:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kkingori.github.io/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
